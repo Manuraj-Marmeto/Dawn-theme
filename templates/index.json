@@ -212,7 +212,6 @@
     "0846cd49-179c-43ad-9760-68c12b2823b6": {
       "type": "Tell-us",
       "settings": {
-        "Content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_url": "shopify:\/\/collections",
         "button_text": "Button"
       }
