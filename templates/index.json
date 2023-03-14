@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
+        "image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -111,13 +111,13 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "t-shirt"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "jewellery-4",
             "second_image": false
           }
         },
@@ -212,8 +212,49 @@
     "0846cd49-179c-43ad-9760-68c12b2823b6": {
       "type": "Tell-us",
       "settings": {
+        "content": "",
         "button_url": "shopify:\/\/collections",
         "button_text": "Button"
+      }
+    },
+    "c85e7646-1eae-4011-9964-d7667a341365": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16118852255906__c85e7646-1eae-4011-9964-d7667a341365-1678795013aa02378f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16118852255906__c85e7646-1eae-4011-9964-d7667a341365-1678795013aa02378f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16118852255906__c85e7646-1eae-4011-9964-d7667a341365-1678795013aa02378f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16118852255906__c85e7646-1eae-4011-9964-d7667a341365-1678795013aa02378f-0",
+        "template--16118852255906__c85e7646-1eae-4011-9964-d7667a341365-1678795013aa02378f-1",
+        "template--16118852255906__c85e7646-1eae-4011-9964-d7667a341365-1678795013aa02378f-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 1,
+        "color_scheme": "accent-2",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -224,6 +265,7 @@
     "collage",
     "video",
     "multicolumn",
-    "0846cd49-179c-43ad-9760-68c12b2823b6"
+    "0846cd49-179c-43ad-9760-68c12b2823b6",
+    "c85e7646-1eae-4011-9964-d7667a341365"
   ]
 }
